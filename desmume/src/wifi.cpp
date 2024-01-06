@@ -29,7 +29,7 @@
 	#include "windriver.h"
 #endif
 	#define PCAP_DEVICE_NAME description
-#elif !defined(VITA)
+#elif !defined(VITA) && !defined(SF2000)
 	#include <unistd.h>
 	#include <stdlib.h> 	 
 	#include <string.h> 	 

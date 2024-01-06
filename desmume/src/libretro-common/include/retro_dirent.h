@@ -49,7 +49,11 @@
 #  endif
 #  include <sys/types.h>
 #  include <sys/stat.h>
-#  include <dirent.h>
+#if defined(SF2000)
+#include "../../../../../../dirent.h"
+#else
+#include <dirent.h>
+#endif
 #  include <unistd.h>
 #endif
 

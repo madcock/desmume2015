@@ -49,7 +49,7 @@
 
 #endif //_MSC_VER
 
-#if !defined(PSP) && !defined(VITA)
+#if !defined(PSP) && !defined(VITA) && !defined(SF2000)
 struct _reent {
 	intptr_t _errno;
 };
